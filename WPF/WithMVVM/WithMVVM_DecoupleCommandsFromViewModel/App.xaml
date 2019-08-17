@@ -1,0 +1,9 @@
+﻿<Application x:Class="WithMVVM_DecoupleCommandsFromViewModel.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WithMVVM_DecoupleCommandsFromViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

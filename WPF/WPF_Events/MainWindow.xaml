@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF_Events.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Events"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid MouseEnter="Grid_MouseEnter" MouseDown="Grid_MouseDown" PreviewKeyDown="Grid_PreviewKeyDown">
+        <!---->
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="145,129,0,0" VerticalAlignment="Top" Width="151" Height="57" MouseEnter="Button_MouseEnter" MouseDown="Button_MouseDown"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="55" Margin="145,243,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="151" PreviewKeyDown="TextBox_PreviewKeyDown"/>
+        <!---->
+
+    </Grid>
+</Window>
